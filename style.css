@@ -141,10 +141,10 @@ color: #ec189a;
 #header h1 {
 	display: block;
 	padding-top: 20px;
-	padding-bottom: 15px;
+	padding-bottom: 10px;
 }
 #header h1 a {
-	font-size: 38px;
+	font-size: 34px;
 	color: #2c2b33;
 	text-decoration: none;
 	font-weight: bold;

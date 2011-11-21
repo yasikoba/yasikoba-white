@@ -46,20 +46,18 @@
       <div id="main">
         <%= yield %>
       </div>
-<!--
       <div id="aside">
         <dl>
           <dt><%= t('recent_entries') %></dt>
           <dd>
             <ul>
-<% Post.recent(5).each do |post| %>
+<% Post.recent(8).each do |post| %>
               <li><a href="<%= post.link %>"><%= post.title %></a></li>
 <% end %>
             </ul>
           </dd>
         </dl>
       </div>
--->
     </div>
     <div id="footer">
 <!--

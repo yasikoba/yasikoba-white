@@ -7,7 +7,7 @@
     <%= post.body %>
   </div>
   <div class="footer">
-    <div class="created_at"><%= l(post.updated_at.to_time) %></div>
+    <div class="created_at"><%= l(post.updated_at, :format => :long) %></div>
 <% if logged_in? %>
     <p><a href="<%= post.edit_link %>"><%= t('edit') %></a></p>
 <% end %>

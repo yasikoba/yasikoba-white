@@ -144,10 +144,10 @@ color: #ec189a;
 	padding-bottom: 6px;
 }
 #header h1 a {
-	font-size: 34px;
+	font-size: 32px;
 	color: #2c2b33;
 	text-decoration: none;
-	font-weight: bold;
+	font-weight: normal;
 }
 
 /* header nav */

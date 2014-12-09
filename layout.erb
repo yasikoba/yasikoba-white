@@ -51,7 +51,7 @@
           <dt><%= t('recent_entries') %></dt>
           <dd>
             <ul>
-<% Post.recent(12).each do |post| %>
+<% Post.recent(15).each do |post| %>
               <li><%= link_to post.title, url(post.link) %></li>
 <% end %>
             </ul>
